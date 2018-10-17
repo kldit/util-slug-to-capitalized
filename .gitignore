@@ -61,5 +61,11 @@ typings/
 # next.js build output
 .next
 
+# system files
+*/.DS_Store
+.DS_Store
+*/thumb.db
+thumb.db
+
 # app.js (for tests purpose)
 app.js
