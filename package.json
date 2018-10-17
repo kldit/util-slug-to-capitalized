@@ -1,0 +1,27 @@
+{
+  "name": "@kldit/util-slug-to-capitalized",
+  "version": "1.0.0",
+  "description": "Slug string to capitalized (uppercase first letter in words) string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kldit/util-slug-to-capitalized.git"
+  },
+  "keywords": [
+    "string",
+    "slug",
+    "capitalized"
+  ],
+  "author": "Orlando Leite <orlando@webdefault.com.br>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kldit/util-slug-to-capitalized/issues"
+  },
+  "homepage": "https://github.com/kldit/util-slug-to-capitalized#readme",
+  "dependencies": {
+    "@kldit/util-first-char-case": "^1.0.2"
+  }
+}
