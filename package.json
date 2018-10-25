@@ -1,6 +1,6 @@
 {
   "name": "@kldit/util-slug-to-capitalized",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Slug string to capitalized (uppercase first letter in words) string",
   "main": "index.js",
   "scripts": {

@@ -4,19 +4,22 @@
  * util functions
  */
 
-require('@kldit/util-first-char-case');
-
-Object.defineProperty(String.prototype, 'slugToCapitalized',
+if(!String.prototype.slugToCapitalized)
 {
-    enumerable: false,
-    value: function ()
+    require('@kldit/util-first-char-case');
+
+    Object.defineProperty(String.prototype, 'slugToCapitalized',
     {
-        let name = this.split(/-/);
-        for(var i in name)
+        enumerable: false,
+        value: function ()
         {
-            var piece = name[i];
-            name[i] = piece.firstCharToUpperCase();
+            let name = this.split(/-/);
+            for(var i in name)
+            {
+                var piece = name[i];
+                name[i] = piece.firstCharToUpperCase();
+            }
+            return name.join('');
         }
-        return name.join('');
-    }
-});
+    });
+}
